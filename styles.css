@@ -12,6 +12,7 @@ main, nav{
     padding: 0 150px;
 }
 
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -55,21 +56,51 @@ main{
 .left_1, .rigth_1, .img{
     width: 450px;
     height: 218px;
-    /*display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: end; */
 }
 
-/* .left_1{
-    padding-right: 20px;
-} */
-
-h1, .subtext{
+.title, .subtext{
     padding-right: 20px;
     margin-bottom: 20px;
 }
-h1{
+.title{
     padding-right: 100px;
 }
 
+#section_1{
+    padding: 0 150px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.title_1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    /* margin: 50px 0; */
+}
+
+.cards_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.card{
+    margin: auto;
+    text-align: center;
+    width: 180px;
+}
+
+.card_img{
+    width: 180px;
+    height: 180px;
+    border: 4px #3882f6 solid;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
